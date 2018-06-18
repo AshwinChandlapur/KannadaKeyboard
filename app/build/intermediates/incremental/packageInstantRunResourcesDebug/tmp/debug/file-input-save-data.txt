@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Mon Jun 18 22:11:36 IST 2018
+1.base=/Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/build/intermediates/assets/debug
+2.path=facts
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=/Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/build/intermediates/assets/debug
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=fonts/quicksand.otf
+count=4
+1.set=ASSET
+0.path=pada
+3.base=/Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/build/intermediates/assets/debug
+0.set=ASSET
+0.base=/Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/build/intermediates/assets/debug
+2.baseType=DIRECTORY
+1.path=kannadapada
