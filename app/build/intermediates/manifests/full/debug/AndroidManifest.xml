@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="my.example.andrei.customkeyboard"
-    android:versionCode="22"
-    android:versionName="1.0" >
+    android:versionCode="23"
+    android:versionName="2.0" >
 
     <uses-sdk
         android:minSdkVersion="19"
         android:targetSdkVersion="26" />
+
+    <!-- my.typekannada.ashwin.customkeyboard -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
         android:name="my.example.andrei.customkeyboard.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="my.example.andrei.customkeyboard.permission.C2D_MESSAGE" /> <!-- OneSignal SDK has runtime checks Android version. -->
-    <!-- <uses-sdk tools:overrideLibrary="android.support.customtabs"/> -->
-    <!-- INTERNET and c2dm RECEIVE are basic requirements for push messages through Google's GCM. -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="my.example.andrei.customkeyboard.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <!--
  Required so the device vibrates on receiving a push notification.
          Vibration settings of the device still apply.
     -->
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!--
- Use to restore notifications the user hasn't interacted with.
-         They could be missed notifications if the user reboots their device if this isn't in place.
-    -->
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- START: ShortcutBadger -->
     <!-- Samsung -->
     <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
     <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
@@ -49,18 +46,17 @@
     <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
 
     <application
-        android:name="com.main.MyApplication"
+        android:name="my.typekannada.ashwin.customkeyboard.main.MyApplication"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/ime_name"
-        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light" >
         <meta-data
             android:name="com.onesignal.NotificationOpened.DEFAULT"
             android:value="DISABLE" />
 
         <activity
-            android:name="com.blackcj.customkeyboard.ImePreferences"
+            android:name="my.typekannada.ashwin.customkeyboard.blackcj.customkeyboard.ImePreferences"
             android:label="@string/settings_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -68,7 +64,7 @@
         </activity>
 
         <service
-            android:name="com.blackcj.customkeyboard.SoftKeyboard"
+            android:name="my.typekannada.ashwin.customkeyboard.blackcj.customkeyboard.SoftKeyboard"
             android:permission="android.permission.BIND_INPUT_METHOD" >
             <intent-filter>
                 <action android:name="android.view.InputMethod" />
@@ -79,16 +75,27 @@
                 android:resource="@xml/method" />
         </service>
 
-        <activity android:name="com.main.MainActivity" >
+        <receiver
+            android:name="my.typekannada.ashwin.customkeyboard.Notifications.Facts.Broadcast_Receiver_Facts"
+            android:enabled="true"
+            android:exported="true"
+            android:label="Notification_receiver_fact"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="my.typekannada.ashwin.customkeyboard.main.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.main.Theme" />
-        <activity android:name="com.Notifications.Pada.KannadaPada" />
-        <activity android:name="com.Notifications.Facts.KannadaFact" />
+        <activity android:name="my.typekannada.ashwin.customkeyboard.main.Theme" />
+        <activity android:name="my.typekannada.ashwin.customkeyboard.Notifications.Pada.KannadaPada" />
+        <activity android:name="my.typekannada.ashwin.customkeyboard.Notifications.Facts.KannadaFact" />
 
         <meta-data
             android:name="android.support.VERSION"

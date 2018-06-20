@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jun 18 22:11:36 IST 2018
+#Tue Jun 19 09:15:14 IST 2018
 1.base=/Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/build/intermediates/assets/debug
 2.path=facts
 0.baseType=DIRECTORY

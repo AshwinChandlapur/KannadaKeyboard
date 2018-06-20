@@ -1,4 +1,4 @@
-#Mon Jun 18 22:11:42 IST 2018
-base.0=/Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/build/intermediates/transforms/dexMerger/debug/2
+#Tue Jun 19 08:48:12 IST 2018
+base.0=/Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/build/intermediates/transforms/dexMerger/debug/19
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.blackcj.customkeyboard">
+    package="my.typekannada.ashwin.customkeyboard">
 
     <!--my.typekannada.ashwin.customkeyboard-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:name="com.main.MyApplication"
+        android:name=".main.MyApplication"
         android:label="@string/ime_name"
         android:icon="@mipmap/ic_launcher"
         android:theme="@style/Theme.AppCompat.Light">
@@ -12,7 +17,7 @@
             android:name="com.onesignal.NotificationOpened.DEFAULT"
             android:value="DISABLE" />
         <activity
-            android:name=".ImePreferences"
+            android:name=".blackcj.customkeyboard.ImePreferences"
             android:label="@string/settings_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +25,7 @@
         </activity>
 
         <service
-            android:name=".SoftKeyboard"
+            android:name=".blackcj.customkeyboard.SoftKeyboard"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
                 <action android:name="android.view.InputMethod" />
@@ -31,16 +36,27 @@
                 android:resource="@xml/method" />
         </service>
 
-        <activity android:name="com.main.MainActivity">
+        <receiver
+            android:name=".Notifications.Facts.Broadcast_Receiver_Facts"
+            android:enabled="true"
+            android:exported="true"
+            android:label="Notification_receiver_fact"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.main.Theme" />
-        <activity android:name="com.Notifications.Pada.KannadaPada" />
-        <activity android:name="com.Notifications.Facts.KannadaFact"></activity>
+        <activity android:name=".main.Theme" />
+        <activity android:name=".Notifications.Pada.KannadaPada" />
+        <activity android:name=".Notifications.Facts.KannadaFact"></activity>
     </application>
 
 </manifest>

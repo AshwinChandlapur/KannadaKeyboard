@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-62:12
 MERGED from [com.github.javiersantos:MaterialStyledDialogs:2.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/MaterialStyledDialogs-2.1.aar/d2912681f5c38a5a3fe2ab501da3cf73/AndroidManifest.xml:2:1-11:12
 MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/core-0.9.0.2.aar/cfdb5c5e5a950ccd8e274a80dad5838a/AndroidManifest.xml:2:1-15:12
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/library-1.1.7.aar/176f4f861ee69da265c04a2b4b3f2500/AndroidManifest.xml:6:1-16:12
@@ -36,25 +36,59 @@ MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /Users/ashwinchand
 MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/14d5df52e3b664d8f2f0147c83cd8167/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-common-license:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/e49cf23558446505cb9b7e9f36e9968b/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/c9787a925fb1cf49ae95fbecdd63b9fc/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-62:12
 	package
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:3:5-41
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:3:5-51
 		INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-62:12
 		INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:1-62:12
 		INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:6:5-68
+MERGED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:19:5-68
+MERGED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:19:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.SET_ALARM
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:8:5-81
+MERGED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:30:5-81
+MERGED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:25:5-79
+MERGED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:17:5-67
+MERGED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:17:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:10:22-64
 application
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:5:5-43:19
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:11:5-60:19
 MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/core-0.9.0.2.aar/cfdb5c5e5a950ccd8e274a80dad5838a/AndroidManifest.xml:13:5-20
 MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/core-0.9.0.2.aar/cfdb5c5e5a950ccd8e274a80dad5838a/AndroidManifest.xml:13:5-20
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4f04bec4f7be9d92e966fe4f3172631f/AndroidManifest.xml:25:5-29:19
@@ -116,71 +150,89 @@ MERGED from [com.google.firebase:firebase-common-license:12.0.1] /Users/ashwinch
 MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/c9787a925fb1cf49ae95fbecdd63b9fc/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/c9787a925fb1cf49ae95fbecdd63b9fc/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:7:9-41
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:13:9-41
 	android:icon
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:14:9-43
 	android:theme
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:9:9-53
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:15:9-53
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:6:9-46
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:12:9-43
 meta-data#com.onesignal.NotificationOpened.DEFAULT
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:10:9-12:39
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:16:9-18:39
 	android:value
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:12:13-36
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:11:13-68
-activity#com.blackcj.customkeyboard.ImePreferences
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:13:9-19:20
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:17:13-68
+activity#my.typekannada.ashwin.customkeyboard.blackcj.customkeyboard.ImePreferences
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:19:9-25:20
 	android:label
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:15:13-50
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:21:13-50
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:14:13-43
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:20:13-66
 intent-filter#action:name:android.intent.action.MAIN
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:16:13-18:29
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:22:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:17:25-66
-service#com.blackcj.customkeyboard.SoftKeyboard
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:21:9-31:19
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:23:25-66
+service#my.typekannada.ashwin.customkeyboard.blackcj.customkeyboard.SoftKeyboard
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:27:9-37:19
 	android:permission
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:23:13-70
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:29:13-70
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:22:13-41
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:28:13-64
 intent-filter#action:name:android.view.InputMethod
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:24:13-26:29
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:30:13-32:29
 action#android.view.InputMethod
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:25:17-67
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:31:17-67
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:25:25-64
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:31:25-64
 meta-data#android.view.im
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:28:13-30:50
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:34:13-36:50
 	android:resource
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:30:17-47
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:36:17-47
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:29:17-47
-activity#com.main.MainActivity
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:33:9-39:20
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:35:17-47
+receiver#my.typekannada.ashwin.customkeyboard.Notifications.Facts.Broadcast_Receiver_Facts
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:39:9-48:20
+	android:process
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:44:13-38
+	android:enabled
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:41:13-35
+	android:label
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:43:13-55
+	android:exported
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:42:13-36
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:33:19-55
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:40:13-73
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:45:13-47:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:46:25-76
+activity#my.typekannada.ashwin.customkeyboard.main.MainActivity
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:50:9-56:20
+	android:name
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:50:19-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:34:13-38:29
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:51:13-55:29
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:37:17-77
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:37:27-74
-activity#com.main.Theme
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:40:9-51
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:54:27-74
+activity#my.typekannada.ashwin.customkeyboard.main.Theme
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:57:9-48
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:40:19-48
-activity#com.Notifications.Pada.KannadaPada
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:41:9-71
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:57:19-45
+activity#my.typekannada.ashwin.customkeyboard.Notifications.Pada.KannadaPada
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:58:9-68
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:41:19-68
-activity#com.Notifications.Facts.KannadaFact
-ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:42:9-81
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:58:19-65
+activity#my.typekannada.ashwin.customkeyboard.Notifications.Facts.KannadaFact
+ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:59:9-78
 	android:name
-		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:42:19-69
+		ADDED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml:59:19-66
 uses-sdk
 INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/src/main/AndroidManifest.xml
@@ -317,38 +369,16 @@ MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.g
 MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:12:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:17:5-67
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:23:5-67
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:17:22-64
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:18:5-82
 MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:26:5-82
 MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:26:5-82
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:18:22-79
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:19:5-68
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:24:5-68
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:19:22-65
 uses-permission#android.permission.VIBRATE
 ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:24:5-66
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:24:22-63
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:12.0.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/a4dfa11f8ab44092e30d5a11c7027b12/AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:25:22-76
-uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:30:5-81
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:30:22-78
 uses-permission#com.sec.android.provider.badge.permission.READ
 ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:32:5-86
 	android:name
@@ -509,10 +539,6 @@ action#android.intent.action.ACTION_BOOT_COMPLETED
 ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:96:17-86
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:96:25-83
-action#android.intent.action.BOOT_COMPLETED
-ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:97:17-79
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:97:25-76
 action#android.intent.action.QUICKBOOT_POWERON
 ADDED from [com.onesignal:OneSignal:3.9.1] /Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/OneSignal-3.9.1.aar/e8d61c6a70ce47dfed466d5682832e99/AndroidManifest.xml:98:17-82
 	android:name

@@ -53,7 +53,7 @@
 
 
     <Row>
-        <Key android:codes="\0C95" android:keyLabel="ಚ"
+        <Key android:codes="3226" android:keyLabel="ಚ"
             android:keyEdgeFlags="left"/>
         <Key android:codes="3227" android:keyLabel="ಛ"/>
         <Key android:codes="3228" android:keyLabel="ಜ"/>
