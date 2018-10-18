@@ -241,16 +241,6 @@
                     android:textAllCaps="false"
                     android:id="@+id/kannadafact"/>
 
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_margin="7dp"
-                    android:layout_height="wrap_content"
-                    android:text="Today's\nNews Headlines"
-                    android:textAllCaps="false"
-                    android:id="@+id/kannadanews"/>
-
-
             </LinearLayout>
 
 
@@ -386,10 +376,26 @@
                 android:visibility="gone"/>
 
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:id="@+id/privacyPolicy"
+                android:textColor="#0000EE"
+                android:text="Privacy Policy"
+                android:textAlignment="center" />
 
         </LinearLayout>
     </ScrollView>
 
 
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        />
 
 </LinearLayout>

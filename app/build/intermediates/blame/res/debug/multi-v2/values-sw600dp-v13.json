@@ -4,7 +4,7 @@
             "outputFile": "/Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/core-0.9.0.2.aar/cfdb5c5e5a950ccd8e274a80dad5838a/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/core-0.9.0.2.aar/b858b83a70a4431158d3305a8fb840bc/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4f04bec4f7be9d92e966fe4f3172631f/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5deb0533ab9f8218b4659f7f61079e40/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

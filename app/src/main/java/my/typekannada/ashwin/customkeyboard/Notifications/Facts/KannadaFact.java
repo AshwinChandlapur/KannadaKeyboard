@@ -8,6 +8,7 @@ import android.database.SQLException;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -20,8 +21,12 @@ import android.widget.TextView;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
+
 import com.github.javiersantos.materialstyleddialogs.MaterialStyledDialog;
 import com.squareup.picasso.Picasso;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 
 import java.io.IOException;
 import java.util.Random;
@@ -37,19 +42,41 @@ public class KannadaFact extends AppCompatActivity {
     int db_length;
     int n_row;
     int c_row;
-    TextView message;
+    TextView message,request;
+
+    private final String TAG = KannadaFact.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_kannada_fact);
 
         android.support.v7.app.ActionBar AB = getSupportActionBar();
         AB.hide();
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         message = (TextView)findViewById(R.id.message_fact);
+//        request = findViewById(R.id.request);
+
+
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                try {
+//                    Document document = Jsoup.connect("http://ashwinchandlapur.github.io/SVGName/").get(); // this is the website string
+//                    final String req = document.select("h2").text().toString();
+//                    runOnUiThread(new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            request.setText(req);
+//                        }
+//                    });
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        }).start();
         //create a DBhelper instance to get cursor
         DatabaseHelper_Fact myDbHelper = new DatabaseHelper_Fact(KannadaFact.this);
         try {
@@ -145,7 +172,7 @@ public class KannadaFact extends AppCompatActivity {
             //we are connected to a network
             connected = true;
 
-            Picasso.with(this.getApplicationContext())
+            Picasso.with(getApplicationContext())
                     .load(imgString)
                     .placeholder(R.color.dark_primary)
                     .into(imgView);
@@ -154,10 +181,11 @@ public class KannadaFact extends AppCompatActivity {
         }
         else{
             connected = false;
-            Picasso.with(this.getApplicationContext())
+            Picasso.with(getApplicationContext())
                     .load(imgString)
                     .placeholder(R.color.dark_primary_dark)
                     .into(imgView);
         }
     }
+
 }

@@ -40,6 +40,15 @@
                 android:textSize="15sp"
                 />
 
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:id="@+id/request"-->
+                <!--android:textSize="10sp"/>-->
+
             <Button
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="match_parent"

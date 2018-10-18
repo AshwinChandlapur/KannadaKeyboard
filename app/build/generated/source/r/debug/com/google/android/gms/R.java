@@ -8,12 +8,15 @@ package com.google.android.gms;
 
 public final class R {
     public static final class attr {
-        public static final int buttonSize = 0x7f020041;
+        public static final int adSize = 0x7f020022;
+        public static final int adSizes = 0x7f020023;
+        public static final int adUnitId = 0x7f020024;
+        public static final int buttonSize = 0x7f020042;
         public static final int circleCrop = 0x7f02004f;
         public static final int colorScheme = 0x7f02005e;
-        public static final int imageAspectRatio = 0x7f02009d;
-        public static final int imageAspectRatioAdjust = 0x7f02009e;
-        public static final int scopeUris = 0x7f020123;
+        public static final int imageAspectRatio = 0x7f020099;
+        public static final int imageAspectRatioAdjust = 0x7f02009a;
+        public static final int scopeUris = 0x7f0200ed;
     }
     public static final class color {
         public static final int common_google_signin_btn_text_dark = 0x7f040034;
@@ -56,17 +59,17 @@ public final class R {
         public static final int adjust_width = 0x7f07001c;
         public static final int auto = 0x7f070020;
         public static final int center = 0x7f070029;
-        public static final int dark = 0x7f070033;
-        public static final int icon_only = 0x7f070049;
-        public static final int light = 0x7f070055;
-        public static final int none = 0x7f070079;
-        public static final int normal = 0x7f07007a;
-        public static final int radio = 0x7f07008b;
-        public static final int standard = 0x7f0700ac;
-        public static final int text = 0x7f0700b2;
-        public static final int text2 = 0x7f0700b3;
-        public static final int wide = 0x7f0700bf;
-        public static final int wrap_content = 0x7f0700c2;
+        public static final int dark = 0x7f070032;
+        public static final int icon_only = 0x7f070045;
+        public static final int light = 0x7f07004f;
+        public static final int none = 0x7f070073;
+        public static final int normal = 0x7f070074;
+        public static final int radio = 0x7f070082;
+        public static final int standard = 0x7f0700a1;
+        public static final int text = 0x7f0700a7;
+        public static final int text2 = 0x7f0700a8;
+        public static final int wide = 0x7f0700b4;
+        public static final int wrap_content = 0x7f0700b6;
     }
     public static final class integer {
         public static final int google_play_services_version = 0x7f080004;
@@ -91,13 +94,27 @@ public final class R {
         public static final int common_signin_button_text = 0x7f0c002f;
         public static final int common_signin_button_text_long = 0x7f0c0030;
         public static final int fcm_fallback_notification_channel_label = 0x7f0c0032;
+        public static final int s1 = 0x7f0c0043;
+        public static final int s2 = 0x7f0c0044;
+        public static final int s3 = 0x7f0c0045;
+        public static final int s4 = 0x7f0c0046;
+        public static final int s5 = 0x7f0c0047;
+        public static final int s6 = 0x7f0c0048;
+        public static final int s7 = 0x7f0c0049;
+    }
+    public static final class style {
+        public static final int Theme_IAPTheme = 0x7f0d012d;
     }
     public static final class styleable {
-        public static final int[] LoadingImageView = { 0x7f02004f, 0x7f02009d, 0x7f02009e };
+        public static final int[] AdsAttrs = { 0x7f020022, 0x7f020023, 0x7f020024 };
+        public static final int AdsAttrs_adSize = 0;
+        public static final int AdsAttrs_adSizes = 1;
+        public static final int AdsAttrs_adUnitId = 2;
+        public static final int[] LoadingImageView = { 0x7f02004f, 0x7f020099, 0x7f02009a };
         public static final int LoadingImageView_circleCrop = 0;
         public static final int LoadingImageView_imageAspectRatio = 1;
         public static final int LoadingImageView_imageAspectRatioAdjust = 2;
-        public static final int[] SignInButton = { 0x7f020041, 0x7f02005e, 0x7f020123 };
+        public static final int[] SignInButton = { 0x7f020042, 0x7f02005e, 0x7f0200ed };
         public static final int SignInButton_buttonSize = 0;
         public static final int SignInButton_colorScheme = 1;
         public static final int SignInButton_scopeUris = 2;

@@ -4,17 +4,7 @@
             "outputFile": "/Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d42cf0447cacb6331a10fccc99733824/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4f04bec4f7be9d92e966fe4f3172631f/res/values-v16/values-v16.xml",
+                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5deb0533ab9f8218b4659f7f61079e40/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1329efd9713d466f88c659f92e30906c/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

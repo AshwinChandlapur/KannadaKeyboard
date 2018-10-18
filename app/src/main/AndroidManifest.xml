@@ -12,6 +12,7 @@
         android:name=".main.MyApplication"
         android:label="@string/ime_name"
         android:icon="@mipmap/ic_launcher"
+        android:hardwareAccelerated="true"
         android:theme="@style/Theme.AppCompat.Light">
         <meta-data
             android:name="com.onesignal.NotificationOpened.DEFAULT"

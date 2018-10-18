@@ -16,15 +16,22 @@ repositories {
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 27
+    buildToolsVersion '28.0.2'
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
 
     defaultConfig {
         applicationId "my.example.andrei.customkeyboard"
         minSdkVersion 19
-        targetSdkVersion 26
-        versionCode 23
-        versionName "2.0"
+        targetSdkVersion 27
+        versionCode 26
+        versionName "2.1"
         manifestPlaceholders = [
                 onesignal_app_id               : '28201b3b-f651-4a28-aaff-cee8ee96ee1a',
                 // Project number pulled from dashboard, local value is ignored.
@@ -41,13 +48,16 @@ android {
     }
 }
 
+
 dependencies {
-    implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.android.support:cardview-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support:support-compat:27.1.1'
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.github.javiersantos:MaterialStyledDialogs:2.1'
     implementation 'com.onesignal:OneSignal:[3.9.1, 3.99.99]'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'org.jsoup:jsoup:1.11.3'
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
 }

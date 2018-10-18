@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="my.example.andrei.customkeyboard"
-    android:versionCode="22"
-    android:versionName="1.0" >
+    android:versionCode="26"
+    android:versionName="2.1" >
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="27" />
 
     <!-- my.typekannada.ashwin.customkeyboard -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -48,6 +48,7 @@
     <application
         android:name="my.typekannada.ashwin.customkeyboard.main.MyApplication"
         android:debuggable="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/ime_name"
         android:testOnly="true"
@@ -98,9 +99,6 @@
         <activity android:name="my.typekannada.ashwin.customkeyboard.Notifications.Pada.KannadaPada" />
         <activity android:name="my.typekannada.ashwin.customkeyboard.Notifications.Facts.KannadaFact" />
 
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
         <meta-data
             android:name="onesignal_app_id"
             android:value="28201b3b-f651-4a28-aaff-cee8ee96ee1a" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
@@ -204,9 +202,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

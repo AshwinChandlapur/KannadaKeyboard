@@ -4,7 +4,7 @@
             "outputFile": "/Users/ashwinchandlapur/Desktop/Keyboards/AndroidCustomKeyboard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4f04bec4f7be9d92e966fe4f3172631f/res/values-v23/values-v23.xml",
+                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5deb0533ab9f8218b4659f7f61079e40/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/bc5c2c6263f3a241be6825c1675cbf3c/res/values-v23/values-v23.xml",
+                    "source": "/Users/ashwinchandlapur/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/e11319bfc6cf97f8b71b4fbc722cece9/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
